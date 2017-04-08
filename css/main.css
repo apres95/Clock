@@ -1,0 +1,27 @@
+body {
+	background-image: url("../img/backgroundClock.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   background-position: center;
+}
+
+#clocks{ 
+margin: 0 auto;
+text-align: center;
+}
+
+#digitalClock {
+	color: #1C002A;
+	background-color: #DDD9DC;
+	display: inline;
+	font-size: 60px;
+	padding: 10px 50px;
+
+}
+
+#analogClock{
+	background-color: #340D41;
+	display: inline;
+	color: #DDD9DC;
+}
