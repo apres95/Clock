@@ -10,7 +10,13 @@
 	</head>
 	<body>
 		<div id='clocks'>
-		<div id= "analogClock"><canvas id="canvas" class="analogClock" width="400" height="400" style="background-color:#340D41"></canvas></div>
+		<div id= "analogClock">
+			<div class="clockFace">
+				<img class="hands" id="minuteHand" src="img/minuteHand.png">
+				<img class="hands" id="secondHand" src="img/secondHand.png">
+				<img class="hands" id="hourHand" src="img/hourHand.png">
+			</div>
+		</div>
 		<div id='digitalClock'></div>
 		</div>
 		<script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>

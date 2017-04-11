@@ -1,27 +1,53 @@
 body {
 	background-image: url("../img/backgroundClock.jpg");
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: 100% 100%;
-   background-position: center;
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+   	background-size: 100% 100%;
+  	background-position: center;
+  	font-family: 'Spirax', cursive;
 }
 
 #clocks{ 
-margin: 0 auto;
-text-align: center;
+	width: 50%;
+	margin-left: 33%;
 }
 
 #digitalClock {
-	color: #1C002A;
-	background-color: #DDD9DC;
-	display: inline;
+	color: #DAAE65;
+	background-color: #4A1D05;
+	width: 450px;
 	font-size: 60px;
-	padding: 10px 50px;
-
+	padding: 6px 0px 6px 50px;
+	border-radius: 15px;
+	margin-top: 25px;
+	border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: black;
+    border-width: 4px;
 }
 
 #analogClock{
-	background-color: #340D41;
-	display: inline;
-	color: #DDD9DC;
+	margin-top: 45px;
+	background-color: #DAAE65;
+	border-radius: 50%;
+	height: 400px;
+	width: 400px;
+	margin-left: 25px;
+}
+
+.clockFace {
+	background-image: url("../img/clockFace.png");
+  	background-position: center;
+  	height: 400px;
+  	width: 400px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+}
+
+.hands{
+	position: absolute;
 }
